@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".MainActivity">
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="297dp"-->
+<!--        android:layout_height="305dp"-->
+<!--        android:background="@drawable/border"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView3"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView4"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView3" />-->
+
+<!--    <ImageView-->
+
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="321dp"-->
+<!--        android:layout_height="407dp"-->
+<!--        android:background="@drawable/redborder"-->
+
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.45" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView4"-->
+<!--        android:layout_width="305dp"-->
+<!--        android:layout_height="309dp"-->
+<!--        android:background="@drawable/border"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView3"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView3"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView3" />-->
+
+<!--    <ImageView-->
+<!--        android:onClick="login_new"-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="96dp"-->
+<!--        android:layout_height="110dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageView4"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView3"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView3"-->
+<!--        app:layout_constraintVertical_bias="1.0"-->
+<!--        app:srcCompat="@drawable/roung_logo" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/UserName"-->
+<!--        android:layout_width="267dp"-->
+<!--        android:layout_height="43dp"-->
+<!--        android:inputType="text"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/Password"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView3"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView4" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Password"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/Password"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView3"-->
+<!--        app:layout_constraintHorizontal_bias="0.127"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/UserName"-->
+<!--        app:layout_constraintVertical_bias="0.825" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/Password"-->
+<!--        android:layout_width="263dp"-->
+<!--        android:layout_height="47dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPassword"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/textView113"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView4"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView4"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView4"-->
+<!--        app:layout_constraintVertical_bias="0.635" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/LogIn"-->
+<!--        android:layout_width="165dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:onClick="login"-->
+<!--        android:text="LOGIN"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/textView3"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView"-->
+<!--        app:layout_constraintHorizontal_bias="0.557"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/Password"-->
+<!--        app:layout_constraintVertical_bias="1.0" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="264dp"-->
+<!--        android:onClick="forgettenpassword"-->
+<!--        android:text="Forgetten Password?"-->
+<!--        android:textColor="#004092"-->
+<!--        android:textStyle="italic"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView"-->
+<!--        app:layout_constraintHorizontal_bias="0.533"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView4" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView113"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="New_Registration"-->
+<!--        android:text="New Registration?"-->
+<!--        android:textColor="#004092"-->
+<!--        android:textStyle="italic"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/textView4"-->
+<!--        app:layout_constraintHorizontal_bias="0.542"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/textView4"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView3"-->
+<!--        app:layout_constraintVertical_bias="0.615" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="240dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:text="© Copyright 2019 by K L Deemed to be University."-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="10dp"-->
+<!--        android:textStyle="italic"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView3"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView"-->
+<!--        app:layout_constraintHorizontal_bias="0.615"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView"-->
+<!--        app:layout_constraintVertical_bias="0.513" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Username"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/UserName"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView3"-->
+<!--        app:layout_constraintHorizontal_bias="0.105"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView"-->
+<!--        app:layout_constraintVertical_bias="0.8" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="64dp"-->
+<!--        android:background="@drawable/login_erp_lms"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView3"-->
+<!--        app:layout_constraintVertical_bias="0.105">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="85dp"-->
+<!--            android:layout_height="64dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:onClick="erp"-->
+<!--            android:gravity="left"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="61dp"-->
+<!--                android:layout_height="47dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@drawable/roung_logo"-->
+<!--                android:textAlignment="center" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="-5dp"-->
+<!--                android:text="ERP"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textStyle="bold" />-->
+<!--        </LinearLayout>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="3dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="@drawable/black_line" />-->
+
+<!--        <LinearLayout-->
+<!--            android:onClick="lms"-->
+<!--            android:layout_width="85dp"-->
+<!--            android:layout_height="64dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="vertical"-->
+<!--            >-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="61dp"-->
+<!--                android:layout_height="47dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@drawable/roung_logo"-->
+<!--                android:textAlignment="center" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="-5dp"-->
+<!--                android:text="LMS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textStyle="bold" />-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/login_red_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/login_white_background">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:id="@+id/username"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/password"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                />
+            <Button
+                android:id="@+id/LogIn"
+                android:layout_width="165dp"
+                android:layout_height="39dp"
+                android:onClick="login"
+                android:text="LOGIN"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Forgotten Passowrd ?"
+                android:textColor="#004092"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="New Registration ?"
+                android:textColor="#004092"
+                android:textStyle="italic"
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:onClick="erp"
+                android:background="#10ffffff"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ERP"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                />
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="#10ffffff"
+                android:layout_margin="3dp"
+                android:onClick="lms"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LMS"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="© Copyright 2022 by K L Deemed to be University. \n All Rights Reserved."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="496dp"
+        android:background="@drawable/login_round_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
