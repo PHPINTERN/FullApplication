@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -29,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         try{
-        USER_NAME = (EditText) findViewById(R.id.username);
-        PASSWORD = (EditText) findViewById(R.id.password);
-        URL = "http://192.168.56.1/signin.php";
+//        USER_NAME = (EditText) findViewById(R.id.username);
+//        PASSWORD = (EditText) findViewById(R.id.password);
+        URL = "http://192.168.197.68:80/signin.php";
 
         queue = Volley.newRequestQueue(this);
         stringRequest = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 //                Intent intent = new Intent(getApplicationContext(), Main_Page.class);
 //                startActivity(intent);
                 TextView textView = (TextView) findViewById(R.id.password);
+
                 textView.setText(response);
 
             }
@@ -48,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 TextView textView = (TextView) findViewById(R.id.password);
+                String text="", Er =  textView.toString();
+                Log.i(text, Er);  // Info level log
                 textView.setText(error.toString());
 
             }
