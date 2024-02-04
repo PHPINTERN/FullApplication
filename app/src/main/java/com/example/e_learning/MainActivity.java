@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         try{
         USER_NAME = (EditText) findViewById(R.id.username);
         PASSWORD = (EditText) findViewById(R.id.password);
-        URL = "http://10.102.11.189/signin.php";
+        URL = "http://192.168.56.1/signin.php";
 
         queue = Volley.newRequestQueue(this);
         stringRequest = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
